@@ -4,7 +4,7 @@ export type CommandResult = {
 };
 
 const COMMANDS: Record<string, () => CommandResult> = {
-  help: () => ({ output: "commands: about  research  music  clear  help" }),
+  help: () => ({ output: "commands: 'whoru' 'clear' 'help'" }),
   whoru: () => ({ output: "Hello, I'm じゅんぴー (JunP)." }),
   clear: () => ({ output: "", clear: true }),
 };
